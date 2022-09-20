@@ -212,3 +212,55 @@ footer {
   opacity: 0.4;
   font-weight: 200;
 }
+
+/* ----------------------
+          CODIGO LUCAS
+------------------------- */
+.introduccion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3em 0;
+  font-size: 18px;
+  text-align: justify;
+  padding: 1em;
+}
+
+.introduccion img {
+  border-radius: 1.5rem;
+  padding: 1em;
+  height: 40%;
+  width: 40%;
+}
+
+.valores {
+  width: 100%;
+  display: flex; 
+  align-items: center;
+  flex-direction: column;
+}
+
+.valores h3 {
+  padding-bottom: 3%;
+}
+
+.nuestrosValores {
+  background:rgb(243, 242, 242);
+  width: 50%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow:0 1px 8px rgb(83, 83, 83);
+}
+
+.nuestrosValores p {
+  text-align: center;
+  letter-spacing: .05em;
+}
+
+.nuestrosValores img {
+  height: 35%;
+}
