@@ -15,9 +15,7 @@
   margin: 0;
 }
 
-/* ----------------------
-          RESET
-------------------------- */
+
 
 body {
   min-height: 100vh;
@@ -28,9 +26,37 @@ img {
   max-width: 100%;
 }
 
-/* ----------------------
+
+.grid-areas {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  grid-template-rows: 100px 1fr 60px;
+  grid-template-areas:
+  "header header"
+  "sidebar content"
+  "footer footer";
+  }
+  
+  /* ----------------------
           HEADER
 ------------------------- */
+  .header {
+  grid-area: header;
+  }
+  
+  .sidebar {
+  grid-area: sidebar;
+  }
+  
+  .content {
+    grid-area: content;
+    }
+    
+  .footer {
+  grid-area: footer;
+  }
+
+
 .header {
   display: flex;
   justify-content: center;
@@ -41,6 +67,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+
 }
 
 .header__texts {
@@ -213,6 +240,8 @@ footer {
   font-weight: 200;
 }
 
+
+  
 /* ----------------------
           CODIGO LUCAS
 ------------------------- */
