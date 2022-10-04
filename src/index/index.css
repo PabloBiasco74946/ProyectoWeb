@@ -99,7 +99,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -36px;
+  margin-top: -50px;
 }
 
 #ulNavbar {
@@ -130,7 +130,6 @@ main {
 }
 
 sidebar {
-
   padding: 20px;
   color: #632626;
 }
@@ -205,4 +204,8 @@ footer {
   text-transform: uppercase;
   opacity: 0.4;
   font-weight: 200;
+}
+
+.articulos{
+  background-color: #b43030;
 }
