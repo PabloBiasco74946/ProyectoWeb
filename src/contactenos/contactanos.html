@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/estilos.css">
+  <link rel="stylesheet" href="contactenos.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <title>Contactanos</title>
 </head>
@@ -17,9 +17,61 @@
     </ul>
   </nav>
 
+  <div class="contact_form">
+
+    <div class="formulario">      
+      <h1>Formulario de contacto</h1>
+        <h3> ¿Sugerencias o películas que quieras añadir al catálogo? </h3>
+            
+          <p>
+            <label for="nombre" class="label-text">Nombre
+              <span class="obligatorio">*</span>
+            </label>
+              <input type="text" name="introducirNombre" id="nombre" required="obligatorio" placeholder="Escriba su nombre"  >
+          </p>
+        
+          <p>
+            <label for="email" class="label-text">Email
+              <span class="obligatorio">*</span>
+            </label>
+              <input type="email" name="introducirEmail" id="email" required="obligatorio" placeholder="Escriba su Email">
+          </p>
+      
+          <p>
+            <label for="telefone" class="label-text">Teléfono
+            </label>
+              <input type="tel" name="introducirTelefono" id="telefono" placeholder="Escriba su teléfono">
+          </p>    
+          
+        
+          <p>
+            <label for="asunto" class="label-text">Asunto
+              <span class="obligatorio">*</span>
+            </label>
+              <input type="text" name="introducirAsunto" id="assunto" required="obligatorio" placeholder="Escriba un asunto">
+          </p>    
+        
+          <p>
+            <label for="mensaje" class="label-text">Mensaje
+              <span class="obligatorio">*</span>
+            </label>                     
+            <textarea name="introducir_mensaje" class="textoMensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+            </p>        
+            <p class="aviso">
+              <span class="obligatorio"> * </span>Los campos son obligatorios.
+            </p>          
+                    
+        
+          <button type="submit" name="enviarFormulario" id="enviar"><p class="label-button">Enviar</p> </button>
+
+       
+    </form>
+</div>  
+</div>
+
   <footer>
     <div class="footer-content">
-      <p>Síguenos en nuestras redes sociales:</p>
+      <p> Síguenos en nuestras redes sociales: </p>
 
       <ul class="socials">
         <li>
