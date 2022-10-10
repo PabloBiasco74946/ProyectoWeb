@@ -13,13 +13,13 @@ body {
   margin: 0;
 
 
-    display: grid;
-    grid-template-columns: 1fr 80vw;
-    grid-template-rows: 50vh 1fr 30vh;
-    grid-template-areas:
-      "header header"
-      "sidebar article"
-      "footer footer";
+  display: grid;
+  grid-template-columns: 1fr 80vw;
+  grid-template-rows: 50vh 1fr 30vh;
+  grid-template-areas:
+    "header header"
+    "sidebar article"
+    "footer footer";
 }
 
 header {
@@ -206,6 +206,40 @@ footer {
   font-weight: 200;
 }
 
-.articulos{
-  background-color: #b43030;
+.articulos {
+  background-color: white
+}
+
+
+
+
+
+
+
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto 100px auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 40px;
+}
+
+.contenedor .pelicula {
+  text-align: center;
+}
+
+.contenedor .pelicula .titulo {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.contenedor .pelicula .poster {
+  width: 100%;
+  min-height: 20rem;
+  min-width: 10rem;
+  margin-bottom: 10px;
+  border-radius: 15px;
 }
