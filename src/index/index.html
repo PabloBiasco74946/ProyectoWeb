@@ -11,7 +11,7 @@
     />
     <title>Index2</title>
   </head>
-  <body>
+  <body class="body">
     <header>
       <div class="header">
         <div class="header__texts">
@@ -33,15 +33,28 @@
     </header>
 
     <sidebar class="sidebar">
-      <p class="header__text">
-        Sidebar:
-        <br />
-        <br />
-        Aca pueden ir filtros, o publicidad, o puede no haber un sidebar
-      </p>
-    </sidebar>
+      <p class="sidebarHeader_texts">
 
-    <main class="articulos">
+        Filtros:
+      </p>
+    </p>
+      <button style="background-color: yellow;"onClick="changefilter(1)"><i class="fa fa-fw fa-star"></i> Más valoradas </button>
+      <button style="background-color: lightsalmon;"onClick="changefilter(2)" ><i class="fa fa-fw fa-trophy"></i> Más populares</button>
+      <p class="sidebarSubHeader_texts"> » Género:  </p>
+      <button style="background-color: lightyellow;" onClick="changefilter(3)" ><i class="fa fa-fw fa-bolt" "></i> Acción</button>
+      <button style="background-color: lightskyblue;"onClick="changefilter(4)" ><i class="fa fa-fw fa-fighter-jet"></i> Aventura</button>
+      <button style="background-color: lightcyan;"onClick="changefilter(5)" ><i class="fa fa-fw fa-smile-o"></i> Comedia</button>
+      <button style="background-color: lightgreen;"onClick="changefilter(6)" ><i class="fa fa-fw fa-gavel"></i> Drama</button>
+      <button style="background-color: lightcoral;"onClick="changefilter(7)" ><i class="fa fa-fw fa-tint"></i> Terror</button>
+
+    </p>
+
+    </sidebar>
+      
+    <main class="articulos" id="Main">
+      <h1 id="titulo_filtro" class="text_filtro">
+        
+      </h1>
       <article>
         <div class="contenedor"></div>
       </article>
